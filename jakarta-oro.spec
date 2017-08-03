@@ -35,7 +35,7 @@
 
 Name:           %{?scl_prefix}jakarta-oro
 Version:        2.0.8
-Release:        21.1%{?dist}
+Release:        21.2%{?dist}
 Epoch:          0
 Summary:        Full regular expressions API
 License:        ASL 1.1
@@ -92,6 +92,9 @@ ant -Dfinal.name=%{base_name} jar javadocs
 %license LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:2.0.8-21.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:2.0.8-21.1
 - Automated package import and SCL-ization
 
